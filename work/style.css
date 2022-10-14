@@ -1,0 +1,162 @@
+body{
+    background-color: lightblue;
+}
+
+h1{
+    color:navy;
+    margin-left: 20px;
+}
+
+p{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    font-style: oblique;
+}
+
+ol>li{
+    text-decoration: line-through;
+    text-transform: lowercase;
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+
+h3{
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+form{
+    margin:auto;
+    border: 3px none black;
+    width: 500px;
+    padding: 10px;
+}
+
+hr{
+    border: dotted black 4px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+
+.things{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.sleep{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.soccer{
+    width: 25%;
+    border-radius: 15px;
+}
+
+.form1{
+    background-color: #6100AA;
+    padding: 100px;
+}
+
+.con1{
+    display: flex;
+    flex-direction: column;
+}
+
+.con2{
+    display:flex;
+    flex-direction: column;
+}
+
+.con3{
+    display: flex;
+    gap: 60px;
+}
+
+.con4{
+    display: flex;
+    gap: 28px;
+}
+
+.num1{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+input{
+    background-color: #8301e9;
+    border: none;
+    height: 40px;
+    padding-left: 10px;
+    color: #d4adf9;
+    font-size: large;
+    margin-top: 5px;
+}
+
+select{
+    background-color: whitesmoke;
+    border: none;
+    height: 40px;
+    padding-left: 10px;
+    color: #d4adf9;
+    margin-top: 5px;
+    width: 105%;
+
+}
+
+
+
+label{
+    color:#d4adf9;
+    font-size: large;
+}
+
+h4{
+    color: #d4adf9;
+    font-size: large;
+}
+
+.photo{
+    width: 103%;
+}
+
+#photos{
+    width: 99%;
+    height: 40px;
+}
+
+textarea{
+    width: 158%;
+    background-color: whitesmoke;
+    height: 100px;
+    color: #d4adf9;
+}
+
+.sex{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+}
+
+#gender{
+    display: flex;
+   margin-right: auto;
+}
+
+button{
+    display: block;
+    width: 515px;
+    padding: 10px;
+    background-color: #92f8bd;
+    cursor: pointer;
+    border: none;
+}
